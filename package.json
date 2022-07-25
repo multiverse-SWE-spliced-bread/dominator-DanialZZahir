@@ -1,0 +1,39 @@
+{
+  "name": "dom-inator",
+  "version": "1.0.0",
+  "description": "## Getting started",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "cd public && live-server --port=3000",
+    "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:caseSwitcher": "jest ./test/caseSwitcher.test.js",
+    "test:chatRoom": "jest ./test/chatRoom.test.js",
+    "test:blockBusters": "jest ./test/blockBusters.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swe-resources-room/dom-inator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swe-resources-room/dom-inator/issues"
+  },
+  "homepage": "https://github.com/swe-resources-room/dom-inator#readme",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "jest-puppeteer": "^6.1.1",
+    "live-server": "^1.2.2",
+    "puppeteer": "^15.5.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "figlet": "^1.5.2"
+  },
+  "jest": {
+    "preset": "jest-puppeteer"
+  }
+}

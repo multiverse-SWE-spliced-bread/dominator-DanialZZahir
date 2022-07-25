@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "caseSwitcher",
+      "setup": "",
+      "run": "npm run test:caseSwitcher",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "chatRoom",
+      "setup": "",
+      "run": "npm run test:chatRoom",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "blockBusters",
+      "setup": "",
+      "run": "npm run test:blockBusters",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    }
+  ]
+}
