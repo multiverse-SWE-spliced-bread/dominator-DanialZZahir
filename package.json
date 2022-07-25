@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "cd public && live-server --port=3000",
     "test": "jest --bail --runInBand --testSequencer=./test/testSequencer.js",
+    "test:all": "jest --runInBand",
     "test:caseSwitcher": "jest ./test/caseSwitcher.test.js",
     "test:chatRoom": "jest ./test/chatRoom.test.js",
     "test:blockBusters": "jest ./test/blockBusters.test.js"
@@ -31,7 +32,8 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "figlet": "^1.5.2"
+    "figlet": "^1.5.2",
+    "g": "^2.0.1"
   },
   "jest": {
     "preset": "jest-puppeteer"
